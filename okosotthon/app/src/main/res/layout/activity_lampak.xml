@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nappali lámpa kapcsoló -->
+    <TextView
+        android:id="@+id/livingRoomLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nappali Lámpa"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/livingRoomSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Konyhai lámpa kapcsoló -->
+    <TextView
+        android:id="@+id/kitchenLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konyhai Lámpa"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/kitchenSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Minden lámpa bekapcsolása gomb -->
+    <Button
+        android:id="@+id/turnOnAllBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minden lámpa bekapcsolása" />
+
+    <!-- Minden lámpa kikapcsolása gomb -->
+    <Button
+        android:id="@+id/turnOffAllBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minden lámpa kikapcsolása" />
+
+</LinearLayout>
